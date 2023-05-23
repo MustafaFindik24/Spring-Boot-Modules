@@ -10,3 +10,7 @@ Spring Boot da projenin geliştirilmesini ve yönetilmesini kolaylaştıran bir 
 
 Bir parent proje oluşturulur ve pom.xml dosyasının içerisinde projenin parent olduğu belirtilir. 
 
+![image](https://github.com/MustafaFindik24/Spring-Boot-Modules/assets/91599453/aed95e76-7407-40e6-ae2d-204df98ae32f)
+
+Eğer bir modül diğer bir modülün içerisinde kullanılacaksa ilgili modülün pom.xml dosyasına erişilip modül dependency olarak eklenir.
+
