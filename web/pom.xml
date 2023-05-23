@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.mustafafindik</groupId>
-        <artifactId>hospital-management-system</artifactId>
+        <artifactId>Spring-Boot-Multi-Module</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <artifactId>web</artifactId>

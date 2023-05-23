@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.mustafafindik</groupId>
-    <artifactId>hospital-management-system</artifactId>
+    <artifactId>Spring-Boot-Multi-Module</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>hospital-management-system</name>
-    <description>hospital-management-system</description>
+    <name>Spring-Boot-Multi-Module</name>
+    <description>Spring-Boot-Multi-Module</description>
     <packaging>pom</packaging> <!-- diğer modüllerde dependencyleri kullanabilmek için ekledik -->
     <properties>
         <java.version>11</java.version>
@@ -50,7 +50,7 @@
         </dependency>
     </dependencies>
     <modules>
-        <module>domain</module>
+        <module>model</module>
         <module>repository</module>
         <module>service</module>
         <module>web</module>

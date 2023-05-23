@@ -6,21 +6,22 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="model" />
         <module name="repository" />
         <module name="web" />
         <module name="service" />
-        <module name="domain" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="deneme" target="11" />
+      <module name="Spring-Boot-Multiple-Module" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Spring-Boot-Multiple-Module" options="" />
       <module name="deneme" options="-parameters" />
-      <module name="domain" options="-parameters" />
-      <module name="hospital-management-system" options="" />
+      <module name="model" options="-parameters" />
       <module name="repository" options="-parameters" />
       <module name="service" options="-parameters" />
       <module name="web" options="-parameters" />
